@@ -1,0 +1,169 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: teal
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.start {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.bar a:hover {
+    color: black
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.about-me {
+
+max-width: 600px;
+}
+
+.about-me h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.about-me h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: navajowhite;
+}
+
+.about-me p {
+    font-size: 16px;
+}
+
+.picture-me {
+    width: 300px;
+    float: right;
+    display: flex;
+    padding: 4%;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+
+}
+
+.about {
+    font-size: 25px;
+    color: antiquewhite;
+    padding: 10%;
+    
+}
+
+.about p {
+    font-size: 16px;
+    color: black;
+}
+
+.portfolio {
+    padding: 10%;
+    font-size: 25px;
+    color: antiquewhite;
+   
+    
+}
+
+
+
+
+.project-label:hover {
+    transform: scale(1.2);
+}
+
+.project {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.project-label::selection {
+    transform: scale(1.2);
+}
+
+.hsss-picture {
+    width: 500px;
+    display: flex;
+    padding: 4%;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+
+}
+
+.nutrition-picture {
+    width: 300px;
+    display: flex;
+    padding: 4%;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+
+}
+
+.quiz-picture {
+    width: 300px;
+    display: flex;
+    padding: 4%;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+
+}
+
+.contact    {
+    font-size: 25px;
+    color: antiquewhite;
+    padding: 10%;
+
+}
+
+.contact p {
+    font-size: 16px;
+    color: black;
+
+}
